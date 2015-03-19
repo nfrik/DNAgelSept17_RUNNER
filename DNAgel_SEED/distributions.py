@@ -45,6 +45,16 @@ class Distribution(object):
             self.amounts[b] += 1
         print " * Uniform distribution initialized"
 
+    def initialize_scalefree(self,gamma=0.5):
+        min_amount = self.tokens / self.bins
+        print " * Minimum amount for", self.tokens, "tokens in", self.bins, "bins:", min_amount
+        for b in xrange(self.bins):
+            self.amounts[b] = math.pow(b,gamma)
+        rem_amount = self.tokens - min_amount * self.bins
+        for b in random.sample(range(self.bins), rem_amount):
+            self.amounts[b] += 1
+        print " * Scale-free distribution with gamma=",gamma," initialized"
+
     def filter_bins(self, dictionary):
         print " * Filtering arities"
         self.filtered = range(1, self.bins + 1)
