@@ -142,13 +142,6 @@ def iterate_network(net, TRUTH_TABLE, ITERATIONS, INPUTS, OUTPUTS, resultpath,re
 
 if __name__ == '__main__':
 
-    # NODES = 32
-    # INPUTS = 2
-    # OUTPUTS = 1
-    # M = 30
-    # ITERATIONS = 70
-    # REPETITIONS = 150
-    # TEST = "test_or"
     NODES = int(sys.argv[1])
     INPUTS = int(sys.argv[2])
     OUTPUTS = int(sys.argv[3])
@@ -160,6 +153,18 @@ if __name__ == '__main__':
     TRUTH_TABLE = load_truth_table_from_file(TEST)
     TOTAL_GOODS = 0
     REPETITION_GOODS = 0
+
+    # NODES = 32
+    # INPUTS = 2
+    # OUTPUTS = 1
+    # M = 30
+    # ITERATIONS = 70
+    # REPETITIONS = 150
+    # TEST = "test_or"
+
+    # TRUTH_TABLE = load_truth_table_from_file(TEST)
+    # TOTAL_GOODS = 0
+    # REPETITION_GOODS = 0
 
 
     timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%m%d%Y_%H_%M_%S')

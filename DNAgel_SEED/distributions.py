@@ -33,6 +33,11 @@ class Distribution(object):
 
         print self.amounts, sum(self.amounts)
 
+    def normalize(self,toval=1):
+        s=sum(self.amounts)
+        self.amounts = [toval*x/s for x in self.amounts]
+
+    """ Generates a uniform distribution """
 
     def initialize_uniform(self):
         min_amount = self.tokens / self.bins
@@ -44,6 +49,63 @@ class Distribution(object):
         for b in random.sample(range(self.bins), rem_amount):
             self.amounts[b] += 1
         print " * Uniform distribution initialized"
+
+    """ Closed-form formula of gaussian distribution """
+
+    def gaussian(self, x, mu, sig):
+        fact = 1. / (sig * sqrt(2. * pi))
+        fact *= exp(-( (x - mu) * (x - mu) / (2. * sig * sig)))
+        return fact
+
+    # return 1./(sig*sqrt(2*pi)) * exp(-power(x-mu, 2.) / (2*power(sig, 2.)) )
+
+
+    """ Generates a normal distribution with specified average and standard deviation """
+
+    def initialize_normal(self, mu=10, sigma=5):
+        min_amount = self.tokens / self.bins
+        print " * Minimum amount for", self.tokens, "tokens in", self.bins, "bins:", min_amount
+        for b in xrange(self.bins):
+            self.amounts[b] = self.gaussian(b,mu,sigma)
+        rem_amount = self.tokens - min_amount * self.bins
+        # print " * Stochastically assigning", rem_amount, "remaining tokens"
+        # for b in random.sample(range(self.bins), rem_amount):
+        #     self.amounts[b] += 1
+        # print " * Normal distribution initialized"
+
+        # total = 0
+        # for i in xrange(1, self.bins + 1):
+        #     self.amounts[i - 1] = self.gaussian(i, mu, sigma)
+        #     total += self.amounts[i - 1]
+        #     self.cumulative[i - 1] = total
+        # self.base = self.amounts[:]
+
+
+    """ Generates a Poisson distribution with specified lambda """
+
+    def initialize_poisson(self, lam=10.):
+        min_amount = self.tokens / self.bins
+        print " * Minimum amount for", self.tokens, "tokens in", self.bins, "bins:", min_amount
+        for b in xrange(self.bins):
+            self.amounts[b] = exp(-lam) * (pow(lam, b) / factorial(b))
+        rem_amount = self.tokens - min_amount * self.bins
+        print " * Stochastically assigning", rem_amount, "remaining tokens"
+        for b in random.sample(range(self.bins), rem_amount):
+            self.amounts[b] += 1
+        print " * Normal distribution initialized"
+
+
+    """ Generates a power-law distribution with specified exponent and scaling coefficient.
+        The distribution can be scaled to sum to 1. """
+    def initialize_power_law(self,gamma=0.5):
+        min_amount = self.tokens / self.bins
+        print " * Minimum amount for", self.tokens, "tokens in", self.bins, "bins:", min_amount
+        for b in xrange(self.bins):
+            self.amounts[b] = math.pow(b,-gamma) if b != 0 else math.pow(b+1,-gamma)
+        rem_amount = self.tokens - min_amount * self.bins
+        # for b in random.sample(range(self.bins), rem_amount):
+        #     self.amounts[b] += 1
+        print " * Scale-free distribution with gamma=",gamma," initialized"
 
     def filter_bins(self, dictionary):
         print " * Filtering arities"
@@ -219,14 +281,19 @@ def myownhistogram(data, bins=100, Normed=True):
 
 
 if __name__ == '__main__':
-    D = Distribution(bins=15, tokens=111)
-    D.initialize_uniform()
+    D = Distribution(bins=25, tokens=125)
+    # D.generate_normal(mu=10,sigma=3)
+    # D.initialize_scalefree(gamma=1)
+    D.generate_poisson(lam=2.)
     example = {1: [], 2: [], 4: [], 9: []}
     # Redistribute tokens in bins
     print D.amounts
-
-    D.perturb(prob_bin=.5,sigma=.2)
+    plot(D.amounts,'b-')
+    # D.perturb(prob_bin=.1,sigma=.2)
+    D.normalize(1.)
+    plot(D.amounts,'r--')
     print D.amounts
+    show()
 
 """
     PRECISION = 100
