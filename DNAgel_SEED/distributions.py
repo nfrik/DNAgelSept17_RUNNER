@@ -50,7 +50,6 @@ class Distribution(object):
             self.amounts[b] += 1
         print " * Uniform distribution initialized"
 
-<<<<<<< HEAD
     """ Closed-form formula of gaussian distribution """
 
     def gaussian(self, x, mu, sig):
@@ -106,7 +105,7 @@ class Distribution(object):
         rem_amount = self.tokens - min_amount * self.bins
         # for b in random.sample(range(self.bins), rem_amount):
         #     self.amounts[b] += 1
-=======
+
     def initialize_scalefree(self,gamma=0.5):
         min_amount = self.tokens / self.bins
         print " * Minimum amount for", self.tokens, "tokens in", self.bins, "bins:", min_amount
@@ -115,9 +114,10 @@ class Distribution(object):
         rem_amount = self.tokens - min_amount * self.bins
         for b in random.sample(range(self.bins), rem_amount):
             self.amounts[b] += 1
->>>>>>> FETCH_HEAD
+
         print " * Scale-free distribution with gamma=",gamma," initialized"
 
+    """remove bins with unexisting node arities"""
     def filter_bins(self, dictionary):
         print " * Filtering arities"
         self.filtered = range(1, self.bins + 1)
