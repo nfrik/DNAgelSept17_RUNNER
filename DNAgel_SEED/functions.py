@@ -43,7 +43,7 @@ def build_random_expression_worker(list_operators=[('and',2), ('or',2), ('not',1
 	# sol_inv_pol = []
 	nodes = 0
 
-	if random.random()>.5 or depth>=max_depth:
+	if random.random()>.7 or depth>=max_depth:
 		node = get_new_node(nodes)
 		dt_node = derivation_tree.TreeNode(node)
 		return node, dt_node
@@ -162,7 +162,7 @@ class CustomFunction(object):
 
 if __name__ == '__main__':
 	
-	
+
 	x, expr_name, x_str, ret_dt =  build_random_expression(max_depth=3)
 	cf = CustomFunction("AND", x_str )
 	print cf.implementation
