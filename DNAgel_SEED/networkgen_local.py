@@ -203,19 +203,21 @@ if __name__ == '__main__':
         # Generates a set of random expressions
         # M - max cardinality
         # max_depth - tree depth
-        net.generate_random_functions(M, max_depth=5)
+        net.generate_random_functions(M, max_depth=15)
         d = Distribution(bins=net.max_arity, tokens=NODES)
-        # d.initialize_uniform()
-        # gamma=3.
-        mu=5
-        sigma=10
-        # d.initialize_power_law(gamma=gamma)
-        d.initialize_normal(mu=mu,sigma=sigma)
-        d.normalize(toval=1.5*NODES)
+        #d.initialize_uniform()
+        gamma=3.
+        mu=50
+        sigma=5
+        d.initialize_power_law(gamma=gamma)
+        #d.initialize_normal(mu=mu,sigma=sigma)
+        d.normalize(toval=1.*NODES)
         plot(d.amounts,'r-')
         d.filter_bins(net.nodes_arities)
+        d.normalize(toval=1.2*NODES)
         generate_random(net, NODES, generator=d)
         plot_degree_histogram(net," sigma="+str(sigma)+" mu="+str(mu))
+        print "resulted number of nodes:",size(net.list_nodes)
         exit()
         # plot_degree_histogram(net," sigma="+sigma+" mu="+mu)
 
