@@ -34,8 +34,16 @@ class Distribution(object):
         print self.amounts, sum(self.amounts)
 
     def normalize(self,toval=1):
-        s=sum(self.amounts)
-        self.amounts = [toval*x/s for x in self.amounts]
+        s=lambda : sum(self.amounts)
+        a=s()
+        b=len(self.amounts)
+        self.amounts = [int(toval*x/a) for x in self.amounts]
+        while(s() != toval):
+            c = random.randint(0,b-1)
+            if self.amounts[c] >= 0 and s() < toval:
+                self.amounts[c] += 1
+            elif s() > toval and self.amounts[c] > 0:
+                self.amounts[c] -= 1
 
     """ Generates a uniform distribution """
 
@@ -62,11 +70,12 @@ class Distribution(object):
 
     """ Generates a normal distribution with specified average and standard deviation """
 
-    def initialize_normal(self, mu=10, sigma=5):
+    def initialize_normal(self, mu=10, sigma=5, norm = 1):
         min_amount = self.tokens / self.bins
         print " * Minimum amount for", self.tokens, "tokens in", self.bins, "bins:", min_amount
         for b in xrange(self.bins):
             self.amounts[b] = self.gaussian(b,mu,sigma)
+        self.normalize(toval = norm)
         rem_amount = self.tokens - min_amount * self.bins
         # print " * Stochastically assigning", rem_amount, "remaining tokens"
         # for b in random.sample(range(self.bins), rem_amount):
@@ -83,7 +92,32 @@ class Distribution(object):
 
     """ Generates a Poisson distribution with specified lambda """
 
-    def initialize_poisson(self, lam=10.):
+    def initialize_poisson(self, lam):
+        """ Generates a Poisson-like distribution with specified lambda, truncated up to
+            self.bins, and whose sum of values is exactly self.tokens
+        """
+        total = 0
+        for i in xrange(len(self.amounts)):
+            self.amounts[i]=0
+        while(total<self.tokens):
+            value = poisson(lam)
+            if value<self.bins:
+                self.amounts[value] += 1
+                total += 1
+
+    def initialize_trunc_gauss(self, mu=10, sigma=3):
+        total = 0
+        while(total<self.tokens):
+            value = int(random.gauss(mu, sigma))
+            if value<self.bins and value>0:
+                self.amounts[value] += 1
+                total += 1
+                print "total: ",total," tokens:",self.tokens
+
+
+
+
+    def initialize_poisson_old(self, lam=10.):
         min_amount = self.tokens / self.bins
         print " * Minimum amount for", self.tokens, "tokens in", self.bins, "bins:", min_amount
         for b in xrange(self.bins):
@@ -295,7 +329,7 @@ if __name__ == '__main__':
     D = Distribution(bins=25, tokens=125)
     # D.generate_normal(mu=10,sigma=3)
     # D.initialize_scalefree(gamma=1)
-    D.generate_poisson(lam=2.)
+    D.initialize_poisson(lam=2.)
     example = {1: [], 2: [], 4: [], 9: []}
     # Redistribute tokens in bins
     print D.amounts

@@ -136,17 +136,17 @@ def plot_degree_histogram(net,par=""):
     plt.axis('off')
     nx.draw_networkx_nodes(Gcc,pos,node_size=5)
     nx.draw_networkx_edges(Gcc,pos,alpha=0.4)
-    plt.savefig("degree"+str(NODES)+".png")
+    # plt.savefig("degree"+str(NODES)+".png")
     plt.show()
 
 if __name__ == '__main__':
 
-    NODES = 129
+    NODES = 100
     INPUTS = 2
     OUTPUTS = 1
     M = 200
-    ITERATIONS = 7
-    REPETITIONS = 1
+    ITERATIONS = 70
+    REPETITIONS = 10
     TEST = "test_or"
     #NODES = int(sys.argv[1])
     #INPUTS = int(sys.argv[2])
@@ -203,20 +203,24 @@ if __name__ == '__main__':
         # Generates a set of random expressions
         # M - max cardinality
         # max_depth - tree depth
-        net.generate_random_functions(M, max_depth=15)
+        net.generate_random_functions(M, max_depth=10)
         d = Distribution(bins=net.max_arity, tokens=NODES)
         #d.initialize_uniform()
-        gamma=3.
-        mu=50
+        # lambd=1.3
+        mu=12
         sigma=5
-        d.initialize_power_law(gamma=gamma)
-        #d.initialize_normal(mu=mu,sigma=sigma)
-        d.normalize(toval=1.*NODES)
-        plot(d.amounts,'r-')
+        # d.initialize_power_law(gamma=lambd)
+        d.initialize_normal(mu=mu,sigma=sigma,norm = NODES)
+        # d.normalize(toval=1*NODES)
+        # d.initialize_trunc_gauss(mu=mu, sigma=sigma)
+        # d.initialize_normal(mu=mu,sigma=sigma,norm=1*NODES)
+
+        plot(d.amounts,'ro-')
         d.filter_bins(net.nodes_arities)
-        d.normalize(toval=1.2*NODES)
+        # d.normalize(toval=1.2*NODES)
         generate_random(net, NODES, generator=d)
         plot_degree_histogram(net," sigma="+str(sigma)+" mu="+str(mu))
+        # plot_degree_histogram(net," lambda="+str(lambd))
         print "resulted number of nodes:",size(net.list_nodes)
         exit()
         # plot_degree_histogram(net," sigma="+sigma+" mu="+mu)

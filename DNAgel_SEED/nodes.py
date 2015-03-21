@@ -325,16 +325,18 @@ class Network(object):
         for i in self.input_nodes:
             self.graph.add_node(i.ID)
 
+        # output nodes
         for o in self.output_nodes:
             self.graph.add_node(o.ID)
 
+        # core nodes
         for f in self.list_nodes:
             self.graph.add_node(f.ID)
-            print "Added node ",f.ID
+            # print "Added node ",f.ID
 
         for k in self.list_directed_edges:
             for num, n in enumerate(self.list_directed_edges[k]):
-                print n.ID,"->",k.ID
+                # print n.ID,"->",k.ID
                 self.graph.add_edge(n.ID, k.ID, label=n.ID)
 
         ret = sorted(nx.connected_component_subgraphs(self.graph), reverse=True)[0];
