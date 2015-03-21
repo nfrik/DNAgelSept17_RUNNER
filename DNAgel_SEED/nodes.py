@@ -344,11 +344,11 @@ class Network(object):
 if __name__ == '__main__':
 
     net = Network()
-    print net.generate_random_functions(30, max_depth=3)
+    print net.generate_random_functions(100, max_depth=13)
 
-    ITERATIONS = 4
-    NODES = 30
-    FUNCTIONS = 20
+    # ITERATIONS = 4
+    # NODES = 30
+    # FUNCTIONS = 20
 
     """
     cfand  = CustomFunction("AND", "A and B")
