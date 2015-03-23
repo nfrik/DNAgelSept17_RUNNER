@@ -70,13 +70,13 @@ class Distribution(object):
 
     """ Generates a normal distribution with specified average and standard deviation """
 
-    def initialize_normal(self, mu=10, sigma=5, norm = 1):
+    def initialize_normal(self, mu=10, sigma=5):
         min_amount = self.tokens / self.bins
         print " * Minimum amount for", self.tokens, "tokens in", self.bins, "bins:", min_amount
         for b in xrange(self.bins):
             self.amounts[b] = self.gaussian(b,mu,sigma)
-        self.normalize(toval = norm)
-        rem_amount = self.tokens - min_amount * self.bins
+        # self.normalize(toval = norm)
+        # rem_amount = self.tokens - min_amount * self.bins
         # print " * Stochastically assigning", rem_amount, "remaining tokens"
         # for b in random.sample(range(self.bins), rem_amount):
         #     self.amounts[b] += 1
@@ -193,7 +193,6 @@ class Distribution(object):
                             self.amounts[rnd_bin] += 1
                             diff += 1
                 self.amounts[b] = am
-
 
 class OldDistribution(object):
     def __init__(self, bins=100):
