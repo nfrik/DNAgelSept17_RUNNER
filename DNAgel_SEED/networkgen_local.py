@@ -123,25 +123,69 @@ def iterate_network(net, TRUTH_TABLE, ITERATIONS, INPUTS, OUTPUTS, resultpath,re
 
     return loc_fit, output_value, body_states_occupancy
 
-def plot_degree_histogram(net,par=""):
+def plot_degree_histogram(net,par="",path=""):
     lst = net.get_graph_degree()
-    plt.plot(lst,'b-',marker='o')
+    # plt.plot(lst,'b-',marker='o')
+    plt.loglog(lst,'b-',marker='o')
     plt.title("Degree rank plot for "+str(NODES)+" nodes"+par)
     plt.ylabel("degree")
     plt.xlabel("rank")
 
     plt.axes([0.45,0.45,0.45,0.45])
     Gcc=net.get_connected_components_subgraphs()
-    pos=nx.spring_layout(Gcc)
+    # pos=nx.spring_layout(Gcc)
+    pos=nx.circular_layout(Gcc)
     plt.axis('off')
-    nx.draw_networkx_nodes(Gcc,pos,node_size=5)
-    nx.draw_networkx_edges(Gcc,pos,alpha=0.4)
-    # plt.savefig("degree"+str(NODES)+".png")
+    colors = net.generate_graph_nx_colors()
+    nx.draw_networkx_nodes(Gcc,pos,node_size=40,node_color = colors)
+    nx.draw_networkx_edges(Gcc,pos,alpha=0.4,width=1.3)
+    plt.savefig(path+"/degree"+str(NODES)+".png")
     plt.show()
+
+def plot_degree_histogram_manual(net,par="",path=""):
+    data=[]
+    for i in net.list_nodes:
+        data.append(i.func.arity)
+
+    # n, bins, patches = plt.hist(data, bins=20, facecolor='g', alpha=0.75)
+
+    y,binEdges=np.histogram(data,bins=len(net.nodes_arities))
+    bincenters = 0.5*(binEdges[1:]+binEdges[:-1])
+    plt.plot(bincenters,y,'bo-')
+    plt.title("Degree rank plot for "+str(NODES)+" nodes"+par)
+    plt.ylabel("degree")
+    plt.xlabel("rank")
+    # plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
+    # plt.axis([40, 160, 0, 0.03])
+
+    plt.axes([0.45,0.45,0.45,0.45])
+    # Gcc=net.get_connected_components_subgraphs()
+    # Gcc=net.get_nx_digraph()
+    Gcc=net.generate_digraph_nx()
+    # pos=nx.spring_layout(Gcc)
+    pos=nx.circular_layout(Gcc)
+    plt.axis('off')
+    colors = net.generate_graph_nx_colors()
+    nx.draw_networkx_nodes(Gcc,pos,node_size=1,node_color = colors, node_shape = 's', with_labels = False)
+    nx.draw_networkx_edges(Gcc,pos,alpha=0.01,width=1.3)
+    plt.savefig(path+"/degree"+str(NODES)+".png")
+    plt.show()
+
+def generate_distribution(d=None, distrib="", mu=10, sigma=5, lam=10, sf=100, normalization=10):
+        if distrib == "uniform":
+            d.initialize_uniform()
+        elif distrib == "normal":
+            d.initialize_normal(mu=mu,sigma=sigma)
+        elif distrib == "poisson":
+            d.initialize_poisson(lam=lam)
+        elif distrib == "power_law":
+            d.initialize_power_law(gamma=sf)
+
+        d.normalize(toval = normalization)
 
 if __name__ == '__main__':
 
-    NODES = 100
+    NODES = 1000
     INPUTS = 2
     OUTPUTS = 1
     M = 200
@@ -155,6 +199,13 @@ if __name__ == '__main__':
     #ITERATIONS = int(sys.argv[5])
     #REPETITIONS = int(sys.argv[6])
     #TEST = sys.argv[7]
+    #DISTRIBT = sys.argv[8]
+    #DISTRARG1 = sys.argv[9]
+    #DISTRARG2 = sys.argv[10]
+
+    DISTRIBT = "normal"
+    DISTRARG1 = 10
+    DISTRARG2 = 4
 
     TRUTH_TABLE = load_truth_table_from_file(TEST)
     TOTAL_GOODS = 0
@@ -203,26 +254,27 @@ if __name__ == '__main__':
         # Generates a set of random expressions
         # M - max cardinality
         # max_depth - tree depth
-        net.generate_random_functions(M, max_depth=10)
+        net.generate_random_functions(M, max_depth=15)
         d = Distribution(bins=net.max_arity, tokens=NODES)
-        #d.initialize_uniform()
-        # lambd=1.3
-        mu=12
-        sigma=5
+
+        generate_distribution(d=d,distrib=DISTRIBT,mu=DISTRARG1,sigma=DISTRARG2,lam=DISTRARG1,sf=DISTRARG1,normalization=NODES)
+
         # d.initialize_power_law(gamma=lambd)
-        d.initialize_normal(mu=mu,sigma=sigma,norm = NODES)
+        # d.normalize(toval=NODES)
+        # d.initialize_normal(mu=mu,sigma=sigma,norm = 1*NODES)
+        # d.initialize_uniform()
         # d.normalize(toval=1*NODES)
         # d.initialize_trunc_gauss(mu=mu, sigma=sigma)
         # d.initialize_normal(mu=mu,sigma=sigma,norm=1*NODES)
+        # d.initialize_poisson(lam=20)
+        # plot(range(1,len(d.amounts)+1),d.amounts,'ro-')
 
-        plot(d.amounts,'ro-')
         d.filter_bins(net.nodes_arities)
-        # d.normalize(toval=1.2*NODES)
         generate_random(net, NODES, generator=d)
-        plot_degree_histogram(net," sigma="+str(sigma)+" mu="+str(mu))
-        # plot_degree_histogram(net," lambda="+str(lambd))
-        print "resulted number of nodes:",size(net.list_nodes)
-        exit()
+        plot_degree_histogram_manual(net,DISTRIBT+" args = ("+str(DISTRARG1)+" , "+str(DISTRARG2)+")",path=dirpath)
+        # net.render_graph(dirpath + "/pdout" + "_" + ".png", use_networkx=False, use_png=True)
+        # print "resulted number of nodes:",size(net.list_nodes)
+        # exit()
         # plot_degree_histogram(net," sigma="+sigma+" mu="+mu)
 
 
