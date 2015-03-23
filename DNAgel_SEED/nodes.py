@@ -174,7 +174,7 @@ class Network(object):
             else:
                 self.graph.write_png(p)
         else:
-            colors = self.generate_graph_nx(boolean)
+            colors = self.generate_graph_nx_colors(boolean)
             plt.figure(figsize=(20, 20))
             if self.graph_layout_pos != None:
                 posit = nx.draw(self.graph, pos=self.graph_layout_pos, node_color=colors, font_size=7, node_size=300)
@@ -182,12 +182,11 @@ class Network(object):
                 posit = nx.draw_spring(self.graph, node_color=colors, font_size=7, node_size=300)
             plt.savefig(p)
 
-    def generate_graph_nx(self, boolean=True):
+    def generate_graph_nx_colors(self, boolean=True):
 
         self.graph = nx.DiGraph()
 
         colors = []
-        labels = []
 
         # input nodes
         for i in self.input_nodes:
@@ -214,10 +213,70 @@ class Network(object):
         for k in self.list_directed_edges:
             for num, n in enumerate(self.list_directed_edges[k]):
                 # print n.ID,"->",k.ID
-                self.graph.add_edge(n.ID, k.ID, label=n.ID)
+                self.graph.add_edge(n.ID, k.ID, label=str(n.ID)+"->"+str(k.ID))
 
         return colors
 
+
+    def get_number_from_nodeid(self, id):
+        dict={}
+        val=id
+        base=10000000
+        dict['I0']=base+0
+        dict['I1']=base+1
+        dict['I2']=base+2
+        dict['I3']=base+3
+        dict['I4']=base+4
+        dict['I5']=base+5
+        dict['I6']=base+6
+        dict['O0']=base+7
+        dict['O1']=base+8
+        dict['O2']=base+9
+        dict['O3']=base+10
+        dict['O4']=base+11
+        dict['O5']=base+12
+        dict['O6']=base+13
+
+        if id in dict.keys():
+            val=dict[id]
+
+        return val
+
+    def generate_digraph_nx(self, boolean=True):
+
+        G = nx.MultiGraph()
+
+        edges = []
+
+        for k in self.list_directed_edges:
+            for num, n in enumerate(self.list_directed_edges[k]):
+                # print n.ID,"->",k.ID
+                # self.graph.add_edge(n.ID, k.ID, label=str(n.ID)+"->"+str(k.ID))
+                edges.append((self.get_number_from_nodeid(n.ID),self.get_number_from_nodeid(k.ID)))
+
+        G.add_edges_from(edges)
+        # print edges
+        return G
+
+    def generate_graph_nx_labels(self, boolean=True):
+
+        self.graph = nx.DiGraph()
+
+        labels = {}
+        # input nodes
+        for i in self.input_nodes:
+            self.graph.add_node(i.ID)
+            labels[i.ID]="i"
+
+        for o in self.output_nodes:
+            self.graph.add_node(o.ID)
+            labels[o.ID]="o"
+
+        for f in self.list_nodes:
+            self.graph.add_node(f.ID)
+            labels[f.ID]=str(4)
+
+        return labels
 
     def reset_network(self):
         for f in range(size(self.list_nodes)):
@@ -342,6 +401,29 @@ class Network(object):
         ret = sorted(nx.connected_component_subgraphs(self.graph), reverse=True)[0];
         return ret
 
+    def get_nx_digraph(self):
+
+        self.graph = nx.DiGraph()
+
+        # input nodes
+        for i in self.input_nodes:
+            self.graph.add_node(i.ID)
+
+        # output nodes
+        for o in self.output_nodes:
+            self.graph.add_node(o.ID)
+
+        # core nodes
+        for f in self.list_nodes:
+            self.graph.add_node(f.ID)
+            # print "Added node ",f.ID
+
+        for k in self.list_directed_edges:
+            for num, n in enumerate(self.list_directed_edges[k]):
+                # print n.ID,"->",k.ID
+                self.graph.add_edge(n.ID, k.ID, label=n.ID)
+
+        return self.graph
 
 if __name__ == '__main__':
 
