@@ -1,7 +1,7 @@
 import pydot
 import networkx as nx
 from functions import *
-import random
+import random as rnd
 import copy
 import matplotlib.pyplot as plt
 from pylab import *
@@ -145,6 +145,10 @@ class Network(object):
         for k in self.list_directed_edges:
             k.apply_function()
 
+    def randomize_nodes_states(self,randomize=False):
+        if randomize:
+            for f in self.list_nodes:
+                f.value = rnd.choice([True,False])
 
     def calculate_nx_spring_layout(self):
 
