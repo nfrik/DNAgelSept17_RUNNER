@@ -1,13 +1,19 @@
-# -*- coding: utf-8 -*-
+import matplotlib                                                                                                                                                                                                                            
+matplotlib.use('Agg')
 from nodes import *
 from distributions import *
 import sys
-import time
 import datetime
+import time
 import os
 import shutil
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import resource
+import string
+import random
 
+def id_generator(size=3, chars=string.ascii_uppercase + string.digits):
+    return ''.join(random.choice(chars) for _ in range(size))
 
 def create_uniform_distribution(nodes, network, dump=True):
     dist = []
@@ -124,57 +130,163 @@ def iterate_network(net, TRUTH_TABLE, ITERATIONS, INPUTS, OUTPUTS, resultpath,re
 
     return loc_fit, output_value, body_states_occupancy
 
-# def plot_degree_histogram(net):
-#     lst = net.get_graph_degree()
-#     plt.plot(lst,'b-',marker='o')
-#     plt.title("Degree rank plot for "+str(NODES)+" nodes")
-#     plt.ylabel("degree")
-#     plt.xlabel("rank")
-#
-#     plt.axes([0.45,0.45,0.45,0.45])
-#     Gcc=net.get_connected_components_subgraphs()
-#     pos=nx.spring_layout(Gcc)
-#     plt.axis('off')
-#     nx.draw_networkx_nodes(Gcc,pos,node_size=5)
-#     nx.draw_networkx_edges(Gcc,pos,alpha=0.4)
-#     plt.savefig("degree"+str(NODES)+".png")
-#     plt.show()
+def plot_degree_histogram(net,par="",path=""):
+    lst = net.get_graph_degree()
+    # plt.plot(lst,'b-',marker='o')
+    plt.loglog(lst,'b-',marker='o')
+    plt.title("Degree rank plot for "+str(NODES)+" nodes"+par)
+    plt.ylabel("degree")
+    plt.xlabel("rank")
+
+    plt.axes([0.45,0.45,0.45,0.45])
+    Gcc=net.get_connected_components_subgraphs()
+    # pos=nx.spring_layout(Gcc)
+    pos=nx.circular_layout(Gcc)
+    plt.axis('off')
+    colors = net.generate_graph_nx_colors()
+    nx.draw_networkx_nodes(Gcc,pos,node_size=40,node_color = colors)
+    nx.draw_networkx_edges(Gcc,pos,alpha=0.4,width=1.3)
+    plt.savefig(path+"/degree"+str(NODES)+".png")
+    plt.show()
+
+def plot_degree_histogram_manual_old(net,par="",path=""):
+    data=[]
+    for i in net.list_nodes:
+        data.append(i.func.arity)
+
+    # n, bins, patches = plt.hist(data, bins=20, facecolor='g', alpha=0.75)
+
+    y,binEdges=np.histogram(data,bins=len(net.nodes_arities))
+    bincenters = 0.5*(binEdges[1:]+binEdges[:-1])
+    plt.plot(bincenters,y,'bo-')
+    plt.title("Degree rank plot for "+str(NODES)+" nodes"+par)
+    plt.ylabel("degree")
+    plt.xlabel("rank")
+    # plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
+    # plt.axis([40, 160, 0, 0.03])
+
+    plt.axes([0.45,0.45,0.45,0.45])
+    # Gcc=net.get_connected_components_subgraphs()
+    # Gcc=net.get_nx_digraph()
+    Gcc=net.generate_digraph_nx()
+    # pos=nx.spring_layout(Gcc)
+    pos=nx.circular_layout(Gcc)
+    plt.axis('off')
+    colors = net.generate_graph_nx_colors()
+    nx.draw_networkx_nodes(Gcc,pos,node_size=1,node_color = colors, node_shape = 's', with_labels = False)
+    nx.draw_networkx_edges(Gcc,pos,alpha=0.01,width=1.3)
+    plt.savefig(path+"/degree"+str(NODES)+".png")
+    # plt.show()
+
+def plot_degree_histogram_manual(net,par="",path="",rep=0):
+    data=[]
+    for i in net.list_nodes:
+        data.append(i.func.arity)
+
+    # n, bins, patches = plt.hist(data, bins=20, facecolor='g', alpha=0.75)
+    #
+    plt.figure()
+    y,binEdges=np.histogram(data,bins=len(net.nodes_arities))
+    bincenters = 0.5*(binEdges[1:]+binEdges[:-1])
+    plt.plot(bincenters,y,'bo-')
+    plt.title("Degree rank plot for "+str(NODES)+" nodes"+par)
+    plt.ylabel("degree")
+    plt.xlabel("rank")
+    plt.savefig(path+"/degree"+str(NODES)+"_r_"+str(rep)+".png")
+    #plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
+    # plt.axis([40, 160, 0, 0.03])
+    # plt.show()
+
+    plt.figure()
+    # plt.axes([0.45,0.45,0.45,0.45])
+    # Gcc=net.get_connected_components_subgraphs()
+    Gcc=net.get_nx_digraph()
+    pos=nx.circular_layout(Gcc)
+    plt.axis('off')
+    colors = net.generate_graph_nx_colors()
+    nx.draw_networkx_nodes(Gcc,pos,node_size=1,node_color = colors, node_shape = 's', with_labels = False)
+    nx.draw_networkx_edges(Gcc,pos,alpha=0.01,width=1.3)
+    plt.savefig(path+"/graph_circ"+str(NODES)+"_r_"+str(rep)+".png")
+    # plt.show()
+
+    plt.figure()
+    Gcc=net.get_nx_digraph()
+    pos=nx.spring_layout(Gcc)
+    plt.axis('off')
+    colors = net.generate_graph_nx_colors()
+    nx.draw_networkx_nodes(Gcc,pos,node_size=1,node_color = colors, node_shape = 's', with_labels = False)
+    nx.draw_networkx_edges(Gcc,pos,alpha=0.02,width=1.3)
+    plt.savefig(path+"/graph_spring"+str(NODES)+"_r_"+str(rep)+".png")
+
+def generate_distribution(d=None, distrib="", mu=10, sigma=5, lam=10, sf=100, normalization=10):
+        if distrib == "uniform":
+            d.initialize_uniform()
+        elif distrib == "normal":
+            d.initialize_normal(mu=mu,sigma=sigma)
+        elif distrib == "poisson":
+            d.initialize_poisson(lam=lam)
+        elif distrib == "power_law":
+            d.initialize_power_law(gamma=sf)
+
+        d.normalize(toval = normalization)
+
+def memory_usage_resource():
+    rusage_denom = 1024.
+    if sys.platform == 'darwin':
+        # ... it seems that in OSX the output is different units ...
+        rusage_denom = rusage_denom * rusage_denom
+    mem = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / rusage_denom
+    return mem
 
 if __name__ == '__main__':
 
-    NODES = int(sys.argv[1])
-    INPUTS = int(sys.argv[2])
-    OUTPUTS = int(sys.argv[3])
-    M = int(sys.argv[4])
-    ITERATIONS = int(sys.argv[5])
-    REPETITIONS = int(sys.argv[6])
-    TEST = sys.argv[7]
+    # NODES = 32
+    # INPUTS = 2
+    # OUTPUTS = 1
+    # M = 200
+    # ITERATIONS = 70
+    # REPETITIONS = 10
+    # TEST = "test_or"
+    args=eval(sys.argv[1])
+    # data = {"N":N[0],"Rand":Rand[0],"M":M[1],"Depth":Depth[2],"Rep":Rep[0],"Iter":Iter[0],"TTable":TTable[0],"Distr":Distr,"Jobs":3}
+
+    NODES = int(args["N"])
+    RANDOMIZE = eval(args["Rand"])
+    INPUTS = int(args["Inputs"])
+    OUTPUTS = int(args["Outputs"])
+    M = int(args["M"])
+    ITERATIONS = int(args["Iter"])
+    REPETITIONS = int(args["Rep"])
+    TEST = args["TTable"]
+    DISTRIBT = args["Distr"][0]
+    DISTRARG1 = float(args["Distr"][1][0])
+    DISTRARG2 = float(args["Distr"][1][1])    
+
+    # NODES = int(sys.argv[1])
+    # INPUTS = int(sys.argv[2])
+    # OUTPUTS = int(sys.argv[3])
+    # M = int(sys.argv[4])
+    # ITERATIONS = int(sys.argv[5])
+    # REPETITIONS = int(sys.argv[6])
+    # TEST = sys.argv[7]
+    # DISTRIBT = sys.argv[8]
+    # DISTRARG1 = float(sys.argv[9])
+    # DISTRARG2 = float(sys.argv[10])
+
+    # DISTRIBT = "normal"
+    # DISTRARG1 = 10
+    # DISTRARG2 = 4
 
     TRUTH_TABLE = load_truth_table_from_file(TEST)
     TOTAL_GOODS = 0
     REPETITION_GOODS = 0
 
-    # NODES = 32
-    # INPUTS = 2
-    # OUTPUTS = 1
-    # M = 30
-    # ITERATIONS = 70
-    # REPETITIONS = 150
-    # TEST = "test_or"
-
-    # TRUTH_TABLE = load_truth_table_from_file(TEST)
-    # TOTAL_GOODS = 0
-    # REPETITION_GOODS = 0
-
-
-    timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%m%d%Y_%H_%M_%S')
-    dirpath = "/gpfs_common/share/nvfrik/rbnruns/output/RUN_" + timestamp + "/DNAgel" + str(NODES) + "_XTRA" + TEST
-
     # append stuff into logger
-    # dirpath = "/Users/nfrik/Documents/Research_TEST_03032015/DNAgel" + str(NODES) + "_XTRA" + TEST
+    timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%m%d%Y_%H_%M_%S')
+    # dirpath = "/Users/nfrik/Documents/DELETEME_DISTRIBS_TEST/DNAgel" + str(NODES)+ timestamp + "_XTRA" + TEST
+    dirpath = "/gpfs_common/share/nvfrik/rbnruns/output/RUN_" + timestamp + "_ID_" + id_generator() + "_" + DISTRIBT + str(DISTRARG1) + str(DISTRARG2) + "/DNAgel" + str(NODES) + "_XTRA" + TEST
     if not os.path.isdir(dirpath):
         os.makedirs(dirpath)
-
     sys.stdout = open(dirpath + "/N" + str(NODES) + "_2_sample.log", 'a')
 
     print '*************************************'
@@ -186,13 +298,16 @@ if __name__ == '__main__':
     print 'ITERATINS= ', ITERATIONS
     print 'REPETITIONS= ', REPETITIONS
     print 'TRUTH_TABLE= ', TRUTH_TABLE
+    print 'DISTRIBT= ', DISTRIBT
+    print 'DISTRARG1= ', DISTRARG1
+    print 'DISTRARG2= ', DISTRARG2
     print '*************************************'
 
     for rho in xrange(REPETITIONS):
 
         GOOD = 0
 
-        print " * Repetition", rho, "*" * 50
+        print " * Repetition", rho, "*" * 50, " timestamp: ",datetime.datetime.now()," resources [Mb]: ", memory_usage_resource()
         subresults = []
 
         net = Network()
@@ -213,14 +328,29 @@ if __name__ == '__main__':
         # Generates a set of random expressions
         # M - max cardinality
         # max_depth - tree depth
-        net.generate_random_functions(M, max_depth=3)
+        net.generate_random_functions(M, max_depth=15)
         d = Distribution(bins=net.max_arity, tokens=NODES)
-        d.initialize_uniform()
+
+        generate_distribution(d=d,distrib=DISTRIBT,mu=DISTRARG1,sigma=DISTRARG2,lam=DISTRARG1,sf=DISTRARG1,normalization=NODES)
+
+        # d.initialize_power_law(gamma=lambd)
+        # d.normalize(toval=NODES)
+        # d.initialize_normal(mu=mu,sigma=sigma,norm = 1*NODES)
+        # d.initialize_uniform()
+        # d.normalize(toval=1*NODES)
+        # d.initialize_trunc_gauss(mu=mu, sigma=sigma)
+        # d.initialize_normal(mu=mu,sigma=sigma,norm=1*NODES)
+        # d.initialize_poisson(lam=20)
+        # plot(range(1,len(d.amounts)+1),d.amounts,'ro-')
+
         d.filter_bins(net.nodes_arities)
         generate_random(net, NODES, generator=d)
-
-
-        # plot_degree_histogram(net)
+        net.randomize_nodes_states(RANDOMIZE) 
+        plot_degree_histogram_manual(net,DISTRIBT+" args = ("+str(DISTRARG1)+" , "+str(DISTRARG2)+")",path=dirpath,rep=rho)
+        # net.render_graph(dirpath + "/pdout" + "_" + ".png", use_networkx=False, use_png=True)
+        # print "resulted number of nodes:",size(net.list_nodes)
+        # exit()
+        # plot_degree_histogram(net," sigma="+sigma+" mu="+mu)
 
 
         resultpath = dirpath + "/rep" + str(rho)
