@@ -1,12 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71796e1c-c60b-4fbe-bf5b-2bb420c4984e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree129.png" afterPath="$PROJECT_DIR$/DNAgel_SEED/degree129.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DNAgel_SEED/distributions.py" afterPath="$PROJECT_DIR$/DNAgel_SEED/distributions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DNAgel_SEED/functions.py" afterPath="$PROJECT_DIR$/DNAgel_SEED/functions.py" />
+    <list default="true" id="71796e1c-c60b-4fbe-bf5b-2bb420c4984e" name="Default" comment="A">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree1024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree129.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree256.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample73.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample77.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample79.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample82.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample83.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample84.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample87.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample89.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample91.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample92.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample93.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample94.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample95.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample97.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample98.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample99.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample73.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample77.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample79.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample82.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample83.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample84.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample87.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample89.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample91.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample92.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample93.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample94.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample95.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample97.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample98.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample99.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample73.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample77.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample79.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample82.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample83.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample84.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample87.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample89.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample91.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample92.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample93.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample94.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample95.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample97.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample98.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample99.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DNAgel_Smart_Runner.py" afterPath="$PROJECT_DIR$/DNAgel_Smart_Runner.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py" afterPath="$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DNAgel_SEED/nodes.py" afterPath="$PROJECT_DIR$/DNAgel_SEED/nodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DNAgelSept17_RUNNER.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,22 +338,52 @@
       <file leaf-file-name="networkgen.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="36.307693" vertical-offset="3104" max-vertical-offset="3795">
-              <caret line="144" column="28" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5745">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="networkgen_local.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3840" max-vertical-offset="4815">
+              <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DNAgel_Smart_Runner.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DNAgel_Smart_Runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panexec.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panexec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1135" max-vertical-offset="1605">
+              <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
               <folding>
-                <element signature="e#24#43#0" expanded="true" />
+                <element signature="e#22#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="networkgen_local.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py">
+      <file leaf-file-name="pancreator.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pancreator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06880734" vertical-offset="540" max-vertical-offset="3825">
-              <caret line="38" column="70" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.7659575" vertical-offset="0" max-vertical-offset="1695">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding>
-                <element signature="e#21#40#0" expanded="true" />
+                <element signature="e#22#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +392,8 @@
       <file leaf-file-name="networker.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="5730">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state vertical-scroll-proportion="-5.6923075" vertical-offset="2387" max-vertical-offset="5580">
+              <caret line="179" column="45" selection-start-line="179" selection-start-column="40" selection-end-line="179" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -66,8 +402,8 @@
       <file leaf-file-name="nodes.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DNAgel_SEED/nodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.03846" vertical-offset="3818" max-vertical-offset="6090">
-              <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.769231" vertical-offset="165" max-vertical-offset="7380">
+              <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -78,11 +414,9 @@
       <file leaf-file-name="distributions.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DNAgel_SEED/distributions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-82.0" vertical-offset="976" max-vertical-offset="6465">
-              <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="4930" max-vertical-offset="6450">
+              <caret line="339" column="10" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,8 +424,8 @@
       <file leaf-file-name="functions.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DNAgel_SEED/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="2670">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2685">
+              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -110,17 +444,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DNAgel_SEED/networkgen.py" />
-        <option value="$PROJECT_DIR$/DNAgel_SEED/distributions.py" />
-        <option value="$PROJECT_DIR$/DNAgel_SEED/nodes.py" />
         <option value="$PROJECT_DIR$/DNAgel_SEED/functions.py" />
+        <option value="$PROJECT_DIR$/DNAgel_SEED/distributions.py" />
+        <option value="$PROJECT_DIR$/DNAgel_Smart_Runner.py" />
+        <option value="$PROJECT_DIR$/DNAgel_SEED/nodes.py" />
         <option value="$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py" />
+        <option value="$PROJECT_DIR$/DNAgel_SEED/networkgen.py" />
+        <option value="$PROJECT_DIR$/panexec.py" />
+        <option value="$PROJECT_DIR$/pancreator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="2" />
     <option name="y" value="22" />
-    <option name="width" value="1029" />
+    <option name="width" value="1436" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -187,12 +525,28 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.File Status" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="SearchEverywhereHistoryKey" value="function&#9;FILE&#9;file:///Users/nfrik/Documents/Research source/DNAgelSept17_RUNNER/DNAgel_SEED/functions.py&#10;get_conne&#9;null&#9;null&#10;connected_component_subgraphs&#9;null&#9;null&#10;distribu&#9;null&#9;null&#10;networkgen&#9;null&#9;null" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="88" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="222" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="93" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="755" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="88" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="90" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="93" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="887" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -240,24 +594,6 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="networkgen" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DNAgel_SEED" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DNAgelSept17_RUNNER" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNAgel_SEED/networkgen.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="nodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,6 +607,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DNAgelSept17_RUNNER" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNAgel_SEED/nodes.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="networker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DNAgel_SEED" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DNAgelSept17_RUNNER" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNAgel_SEED/networker.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DNAgel_Smart_Runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DNAgelSept17_RUNNER" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNAgel_Smart_Runner.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -397,18 +769,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.distributions" />
       <item index="1" class="java.lang.String" itemvalue="Python.networkgen_local" />
-      <item index="2" class="java.lang.String" itemvalue="Python.networkgen" />
-      <item index="3" class="java.lang.String" itemvalue="Python.nodes" />
+      <item index="2" class="java.lang.String" itemvalue="Python.nodes" />
+      <item index="3" class="java.lang.String" itemvalue="Python.networker" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DNAgel_Smart_Runner" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.networkgen_local" />
-        <item index="1" class="java.lang.String" itemvalue="Python.distributions" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DNAgel_Smart_Runner" />
         <item index="2" class="java.lang.String" itemvalue="Python.nodes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.networkgen" />
+        <item index="3" class="java.lang.String" itemvalue="Python.networker" />
+        <item index="4" class="java.lang.String" itemvalue="Python.distributions" />
       </list>
     </recent_temporary>
   </component>
@@ -422,6 +796,35 @@
       <created>1426812014839</created>
       <updated>1426812014839</updated>
     </task>
+    <task id="LOCAL-00001" summary="new methods for building networkx graphs">
+      <created>1427114454567</created>
+      <updated>1427114454567</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added few new parameters for handling distributions from outside">
+      <created>1427114562947</created>
+      <updated>1427114562947</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed default normalization">
+      <created>1427114624158</created>
+      <updated>1427114624158</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added randomizataion of network">
+      <created>1427582700109</created>
+      <updated>1427582700109</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added object transferring through command line with network randomization availability">
+      <created>1427582786215</created>
+      <updated>1427582786215</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Executor to submit multithreading LSF jobs on HPC">
+      <created>1427584039092</created>
+      <updated>1427584039092</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creates LSF script and input parameters file">
+      <created>1427639042010</created>
+      <updated>1427639042010</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -445,45 +848,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1029" height="874" extended-state="6" />
+    <frame x="2" y="22" width="1436" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35421994" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33035713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15433404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3900256" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33248082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3425926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21130742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4680307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31841433" sideWeight="0.26190478" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36317137" sideWeight="0.7380952" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33375958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3478261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33035713" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2966752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4680307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31841433" sideWeight="0.26190478" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33375958" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3425926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15433404" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21130742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32608697" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31760204" sideWeight="0.7380952" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -501,48 +906,90 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="new methods for building networkx graphs" />
+    <MESSAGE value="Added few new parameters for handling distributions from outside" />
+    <MESSAGE value="Removed default normalization" />
+    <MESSAGE value="Added randomizataion of network" />
+    <MESSAGE value="Added object transferring through command line with network randomization availability" />
+    <MESSAGE value="Executor to submit multithreading LSF jobs on HPC" />
+    <MESSAGE value="Creates LSF script and input parameters file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creates LSF script and input parameters file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/DNAgel_SEED/nodes.py</url>
-          <line>109</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py</url>
-          <line>221</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py</url>
-          <line>212</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="19" />
+          <line>216</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.432835" vertical-offset="24708" max-vertical-offset="25110">
-          <caret line="441" column="60" selection-start-line="441" selection-start-column="60" selection-end-line="441" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3795">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="4800">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_Smart_Runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="600">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5730">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="5730">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6012" max-vertical-offset="7320">
+          <caret line="405" column="26" selection-start-line="405" selection-start-column="26" selection-end-line="405" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/distributions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4930" max-vertical-offset="6450">
+          <caret line="339" column="10" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2685">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-47.432835" vertical-offset="24708" max-vertical-offset="25110">
+          <caret line="441" column="60" selection-start-line="441" selection-start-column="60" selection-end-line="441" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -550,54 +997,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8539" max-vertical-offset="13545">
           <caret line="585" column="0" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/numpy-1.9.0.dev_297f54b-py2.7-macosx-10.9-intel.egg/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33184856" vertical-offset="16966" max-vertical-offset="28050">
+          <caret line="1163" column="4" selection-start-line="1163" selection-start-column="4" selection-end-line="1163" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="36.307693" vertical-offset="3104" max-vertical-offset="3795">
-          <caret line="144" column="28" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.03846" vertical-offset="3818" max-vertical-offset="6090">
-          <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DNAgel_SEED/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="2670">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="845" max-vertical-offset="2670">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DNAgel_SEED/distributions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-82.0" vertical-offset="976" max-vertical-offset="6465">
-          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="4930" max-vertical-offset="6450">
+          <caret line="339" column="10" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5745">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_Smart_Runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06880734" vertical-offset="540" max-vertical-offset="3825">
-          <caret line="38" column="70" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3840" max-vertical-offset="4815">
+          <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6923075" vertical-offset="2387" max-vertical-offset="5580">
+          <caret line="179" column="45" selection-start-line="179" selection-start-column="40" selection-end-line="179" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.769231" vertical-offset="165" max-vertical-offset="7380">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
           <folding>
-            <element signature="e#21#40#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panexec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1135" max-vertical-offset="1605">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding>
+            <element signature="e#22#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pancreator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7659575" vertical-offset="0" max-vertical-offset="1695">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="e#22#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
