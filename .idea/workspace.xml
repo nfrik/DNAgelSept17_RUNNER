@@ -2,317 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71796e1c-c60b-4fbe-bf5b-2bb420c4984e" name="Default" comment="A">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree1024.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/degree64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample61.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample68.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample73.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample79.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample81.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample82.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample83.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample84.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample86.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample87.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample88.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample91.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample93.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample94.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample97.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample98.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics/sample99.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample61.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample68.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample73.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample79.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample81.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample82.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample83.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample84.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample86.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample87.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample88.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample91.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample93.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample94.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample97.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample98.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics1/sample99.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample61.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample68.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample73.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample79.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample81.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample82.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample83.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample84.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample86.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample87.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample88.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample89.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample91.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample93.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample94.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample97.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample98.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DNAgel_SEED/pics2/sample99.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DNAgel_Smart_Runner.py" afterPath="$PROJECT_DIR$/DNAgel_Smart_Runner.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py" afterPath="$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DNAgelSept17_RUNNER.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -380,8 +71,8 @@
       <file leaf-file-name="pancreator.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pancreator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7659575" vertical-offset="0" max-vertical-offset="1695">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.31914893" vertical-offset="180" max-vertical-offset="1695">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="e#22#35#0" expanded="true" />
               </folding>
@@ -456,7 +147,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
+    <option name="x" value="3" />
     <option name="y" value="22" />
     <option name="width" value="1436" />
     <option name="height" value="874" />
@@ -848,8 +539,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="22" width="1436" height="874" extended-state="6" />
-    <editor active="true" />
+    <frame x="3" y="22" width="1436" height="874" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -860,7 +551,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4680307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31841433" sideWeight="0.26190478" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36317137" sideWeight="0.7380952" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36317137" sideWeight="0.7380952" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33375958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1078,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pancreator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7659575" vertical-offset="0" max-vertical-offset="1695">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.31914893" vertical-offset="180" max-vertical-offset="1695">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#22#35#0" expanded="true" />
           </folding>

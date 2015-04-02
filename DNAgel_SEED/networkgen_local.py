@@ -1,4 +1,6 @@
 __author__ = 'nfrik'
+import matplotlib
+matplotlib.use('Agg')
 from nodes import *
 from distributions import *
 import sys
@@ -148,28 +150,39 @@ def plot_degree_histogram_manual(net,par="",path=""):
         data.append(i.func.arity)
 
     # n, bins, patches = plt.hist(data, bins=20, facecolor='g', alpha=0.75)
-
+    #
+    plt.figure()
     y,binEdges=np.histogram(data,bins=len(net.nodes_arities))
     bincenters = 0.5*(binEdges[1:]+binEdges[:-1])
     plt.plot(bincenters,y,'bo-')
     plt.title("Degree rank plot for "+str(NODES)+" nodes"+par)
     plt.ylabel("degree")
     plt.xlabel("rank")
-    # plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
+    plt.savefig(path+"/degree"+str(NODES)+".png")
+    #plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
     # plt.axis([40, 160, 0, 0.03])
+    # plt.show()
 
-    plt.axes([0.45,0.45,0.45,0.45])
+    plt.figure()
+    # plt.axes([0.45,0.45,0.45,0.45])
     # Gcc=net.get_connected_components_subgraphs()
-    # Gcc=net.get_nx_digraph()
-    Gcc=net.generate_digraph_nx()
-    # pos=nx.spring_layout(Gcc)
+    Gcc=net.get_nx_digraph()
     pos=nx.circular_layout(Gcc)
     plt.axis('off')
     colors = net.generate_graph_nx_colors()
     nx.draw_networkx_nodes(Gcc,pos,node_size=1,node_color = colors, node_shape = 's', with_labels = False)
     nx.draw_networkx_edges(Gcc,pos,alpha=0.01,width=1.3)
-    plt.savefig(path+"/degree"+str(NODES)+".png")
-    plt.show()
+    plt.savefig(path+"/graph_circ"+str(NODES)+".png")
+    # plt.show()
+
+    plt.figure()
+    Gcc=net.get_nx_digraph()
+    pos=nx.spring_layout(Gcc)
+    plt.axis('off')
+    colors = net.generate_graph_nx_colors()
+    nx.draw_networkx_nodes(Gcc,pos,node_size=1,node_color = colors, node_shape = 's', with_labels = False)
+    nx.draw_networkx_edges(Gcc,pos,alpha=0.02,width=1.3)
+    plt.savefig(path+"/graph_spring"+str(NODES)+".png")
 
 def generate_distribution(d=None, distrib="", mu=10, sigma=5, lam=10, sf=100, normalization=10):
         if distrib == "uniform":
@@ -185,27 +198,27 @@ def generate_distribution(d=None, distrib="", mu=10, sigma=5, lam=10, sf=100, no
 
 if __name__ == '__main__':
 
-    NODES = 1000
+    NODES = 32
     INPUTS = 2
     OUTPUTS = 1
     M = 200
-    ITERATIONS = 70
-    REPETITIONS = 10
+    ITERATIONS = 20
+    REPETITIONS = 2
     TEST = "test_or"
-    #NODES = int(sys.argv[1])
-    #INPUTS = int(sys.argv[2])
-    #OUTPUTS = int(sys.argv[3])
-    #M = int(sys.argv[4])
-    #ITERATIONS = int(sys.argv[5])
-    #REPETITIONS = int(sys.argv[6])
-    #TEST = sys.argv[7]
-    #DISTRIBT = sys.argv[8]
-    #DISTRARG1 = sys.argv[9]
-    #DISTRARG2 = sys.argv[10]
+    # NODES = int(sys.argv[1])
+    # INPUTS = int(sys.argv[2])
+    # OUTPUTS = int(sys.argv[3])
+    # M = int(sys.argv[4])
+    # ITERATIONS = int(sys.argv[5])
+    # REPETITIONS = int(sys.argv[6])
+    # TEST = sys.argv[7]
+    # DISTRIBT = sys.argv[8]
+    # DISTRARG1 = int(sys.argv[9])
+    # DISTRARG2 = int(sys.argv[10])
 
     DISTRIBT = "normal"
-    DISTRARG1 = 10
-    DISTRARG2 = 4
+    DISTRARG1 = 10.
+    DISTRARG2 = 4.
 
     TRUTH_TABLE = load_truth_table_from_file(TEST)
     TOTAL_GOODS = 0
@@ -272,6 +285,7 @@ if __name__ == '__main__':
         d.filter_bins(net.nodes_arities)
         generate_random(net, NODES, generator=d)
         plot_degree_histogram_manual(net,DISTRIBT+" args = ("+str(DISTRARG1)+" , "+str(DISTRARG2)+")",path=dirpath)
+
         # net.render_graph(dirpath + "/pdout" + "_" + ".png", use_networkx=False, use_png=True)
         # print "resulted number of nodes:",size(net.list_nodes)
         # exit()
