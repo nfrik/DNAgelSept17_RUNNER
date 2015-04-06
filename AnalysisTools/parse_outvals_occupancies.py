@@ -7,7 +7,7 @@ from scipy import integrate
 import pylab as P
 import matplotlib.pyplot as plt
 
-repetition = 61
+repetition = 695
 repstr = "Repetition"
 outputvals = "Output values:"
 statesoccup = "States occupancy:"
@@ -21,7 +21,7 @@ readnext = False
 oval=[[] for i in range(ttab_max)]
 occup=[[] for i in range(ttab_max)]
 # with open("/Users/nfrik/Documents/DNAGelRuns/Research3/DNAngel512_XTRAtest_or/N512_2_sample.log") as f:
-with open("/Users/nfrik/Documents/DNAGelRuns/Research_RUNNER/DNAngel256_XTRAtest_and/N256_2_sample.log") as f:
+with open("/Users/nfrik/Documents/DNAGelRuns/Research_RUNNER/DNAngel64_XTRAtest_and/N64_2_sample.log") as f:
      for line in f:
         if (repstr in line) and (int(line.split()[2]) == repetition):
             readnext = True
