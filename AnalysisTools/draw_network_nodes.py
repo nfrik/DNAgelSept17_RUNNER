@@ -55,20 +55,19 @@ def get_inner_states(path,repetition):
     return states,outvals
 
 
-
-REPETITION = 210
-NODES = 192
-TTROW = 1
+REPETITION = 695
+NODES = 64
+TTROW =0
 
 totIterations = 70
 rootpath = "/Users/nfrik/Documents/DNAGelRuns/Research_RUNNER/"
-filepath = rootpath+"DNAngel"+str(NODES)+"_XTRAtest_and/N"+str(NODES)+"_2_sample.log"
+filepath = rootpath+"DNAngel"+str(NODES)+"_XTRAtest_or/N"+str(NODES)+"_2_sample.log"
 
 states,outvals = get_inner_states(filepath,REPETITION)
 [states[TTROW][i].append(0.5*outvals[TTROW][i+1]) for i in range(totIterations)]
 
 
-P.imshow(states[TTROW],interpolation='none',cmap='PuBu')
+P.imshow(states[TTROW],interpolation='none',cmap='Blues')
 # P.title("Inputs: "+"{0:b}".format(TTROW))
 
 inputs = ["False True","True False","False False","True True"]

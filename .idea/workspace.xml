@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71796e1c-c60b-4fbe-bf5b-2bb420c4984e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnalysisTools/CPUTime_calc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnalysisTools/draw_network_nodes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnalysisTools/graph-tool-play.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnalysisTools/parse_dnagel_allxorlogs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnalysisTools/parse_dnagel_andor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnalysisTools/parse_outvals_occupancies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnalysisTools/draw_network_nodes.py" afterPath="$PROJECT_DIR$/AnalysisTools/draw_network_nodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DNAgelSept17_RUNNER.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +29,8 @@
       <file leaf-file-name="networkgen.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3209" max-vertical-offset="5745">
-              <caret line="151" column="28" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+            <state vertical-scroll-proportion="-5.9615383" vertical-offset="5350" max-vertical-offset="5745">
+              <caret line="367" column="50" selection-start-line="367" selection-start-column="50" selection-end-line="367" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -50,22 +46,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CPUTime_calc.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CPUTime_calc.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnalysisTools/CPUTime_calc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw_network_nodes.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnalysisTools/draw_network_nodes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="614" max-vertical-offset="1110">
+              <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse_dnagel_allxorlogs.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnalysisTools/parse_dnagel_allxorlogs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="networker.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networker.py">
+      <file leaf-file-name="parse_outvals_occupancies.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AnalysisTools/parse_outvals_occupancies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="5730">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.087548636" vertical-offset="0" max-vertical-offset="1740">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distrib_analysis.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnalysisTools/distrib_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1031" max-vertical-offset="2925">
+              <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+              <folding>
+                <element signature="e#21#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,19 +141,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DNAgel_SEED/networkgen.py" />
         <option value="$PROJECT_DIR$/DNAgel_SEED/distributions.py" />
         <option value="$PROJECT_DIR$/DNAgel_SEED/nodes.py" />
         <option value="$PROJECT_DIR$/DNAgel_SEED/functions.py" />
         <option value="$PROJECT_DIR$/DNAgel_SEED/networkgen_local.py" />
+        <option value="$PROJECT_DIR$/AnalysisTools/draw_network_nodes.py" />
+        <option value="$PROJECT_DIR$/AnalysisTools/parse_outvals_occupancies.py" />
+        <option value="$PROJECT_DIR$/DNAgel_SEED/networkgen.py" />
+        <option value="$PROJECT_DIR$/AnalysisTools/distrib_analysis.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="81" />
-    <option name="width" value="1653" />
-    <option name="height" value="911" />
+    <option name="y" value="22" />
+    <option name="width" value="1797" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -182,6 +212,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="DNAgel_SEED" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DNAgelSept17_RUNNER" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DNAgelSept17_RUNNER" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="AnalysisTools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -191,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.File Status" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -208,7 +252,7 @@
       <recent name="$PROJECT_DIR$/AnalysisTools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.networkgen_local">
+  <component name="RunManager" selected="Python.distrib_analysis">
     <configuration default="false" name="distributions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,37 +293,57 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="networkgen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="draw_network_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DNAgel_SEED" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AnalysisTools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DNAgelSept17_RUNNER" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNAgel_SEED/networkgen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AnalysisTools/draw_network_nodes.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="nodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="distrib_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DNAgel_SEED" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AnalysisTools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DNAgelSept17_RUNNER" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNAgel_SEED/nodes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AnalysisTools/distrib_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="parse_outvals_occupancies" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AnalysisTools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DNAgelSept17_RUNNER" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AnalysisTools/parse_outvals_occupancies.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -406,18 +470,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.distributions" />
       <item index="1" class="java.lang.String" itemvalue="Python.networkgen_local" />
-      <item index="2" class="java.lang.String" itemvalue="Python.networkgen" />
-      <item index="3" class="java.lang.String" itemvalue="Python.nodes" />
+      <item index="2" class="java.lang.String" itemvalue="Python.draw_network_nodes" />
+      <item index="3" class="java.lang.String" itemvalue="Python.distrib_analysis" />
+      <item index="4" class="java.lang.String" itemvalue="Python.parse_outvals_occupancies" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.networkgen_local" />
-        <item index="1" class="java.lang.String" itemvalue="Python.distributions" />
-        <item index="2" class="java.lang.String" itemvalue="Python.nodes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.networkgen" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.distrib_analysis" />
+        <item index="1" class="java.lang.String" itemvalue="Python.parse_outvals_occupancies" />
+        <item index="2" class="java.lang.String" itemvalue="Python.draw_network_nodes" />
+        <item index="3" class="java.lang.String" itemvalue="Python.networkgen_local" />
+        <item index="4" class="java.lang.String" itemvalue="Python.distributions" />
       </list>
     </recent_temporary>
   </component>
@@ -431,6 +497,15 @@
       <created>1426812014839</created>
       <updated>1426812014839</updated>
     </task>
+    <task id="LOCAL-00001" summary="data analysis sanobox">
+      <created>1428326625426</created>
+      <updated>1428326625426</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added nice features">
+      <created>1428326652520</created>
+      <updated>1428326652520</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -454,18 +529,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="81" width="1653" height="911" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1797" height="878" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35421994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17953432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45676005" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16497748" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3778626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33195022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2811705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -510,6 +586,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="data analysis sanobox" />
+    <MESSAGE value="Added nice features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added nice features" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -534,8 +613,13 @@
           <line>55</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AnalysisTools/distrib_analysis.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -591,6 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-47.432835" vertical-offset="24708" max-vertical-offset="25110">
           <caret line="441" column="60" selection-start-line="441" selection-start-column="60" selection-end-line="441" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -606,14 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8539" max-vertical-offset="13545">
           <caret line="585" column="0" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3209" max-vertical-offset="5745">
-          <caret line="151" column="28" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +729,57 @@
     <entry file="file://$PROJECT_DIR$/AnalysisTools/CPUTime_calc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalysisTools/parse_dnagel_allxorlogs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalysisTools/draw_network_nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1110">
+          <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="14690" max-vertical-offset="16950">
+          <caret line="992" column="0" selection-start-line="992" selection-start-column="0" selection-end-line="992" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAgel_SEED/networkgen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9615383" vertical-offset="5350" max-vertical-offset="5745">
+          <caret line="367" column="50" selection-start-line="367" selection-start-column="50" selection-end-line="367" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalysisTools/distrib_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1031" max-vertical-offset="2925">
+          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+          <folding>
+            <element signature="e#21#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalysisTools/parse_outvals_occupancies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.087548636" vertical-offset="0" max-vertical-offset="1740">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
